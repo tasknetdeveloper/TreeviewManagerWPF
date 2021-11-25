@@ -1,0 +1,24 @@
+﻿<Window x:Class="Solution.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Solution"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <DockPanel Grid.Row="0">
+            <Button x:Name="btnCreateNew" HorizontalAlignment="Left" Margin="10,0,0,0" Width="100" Content="Create new.."></Button>
+            <Button x:Name="btnDelete" HorizontalAlignment="Left"  Margin="10,0,0,0" Width="100" Content="Delete.."></Button>
+            <Button x:Name="btnRename" HorizontalAlignment="Left"  Margin="10,0,0,0" Width="100" Content="Rename.."></Button>
+            <TextBox x:Name="txtRename" HorizontalAlignment="Left"  Margin="10,0,0,0" Width="100"></TextBox>
+        </DockPanel>
+        
+        <TreeView x:Name="tree1" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Stretch"  Width="300"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,5 @@
+D:\Work\TreeViewWPFTest\Solution\Model\bin\Debug\Model.dll
+D:\Work\TreeViewWPFTest\Solution\Model\bin\Debug\Model.pdb
+D:\Work\TreeViewWPFTest\Solution\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Work\TreeViewWPFTest\Solution\Model\obj\Debug\Model.dll
+D:\Work\TreeViewWPFTest\Solution\Model\obj\Debug\Model.pdb
